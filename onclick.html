@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> hack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+/*-- css js --*/
+.full-screen {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: white;
+}
+
+.flex-container-center {
+  displaY: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.full-screen{
+  color: white
+}
+
+.hidden {
+    display: none;
+}
+
+h2{
+    color: black;
+}
+/*-- end js --*/
+
+/*- css của Trọng nhưng tui sửa lại đôi chúts -*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: none;
+    position: absolute;
+}
+
+.contact{
+    margin: 100px 0px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+#contact-h1{
+    font-size: 50px;
+}
+
+#nav{
+   padding: 0;
+   border: none;
+   border-top: solid 5px;
+   text-align: center;
+   max-width: 250px;
+   margin: 25px auto 50px;
+   border-color: #75bee9;
+}
+
+img{
+    margin-bottom: 0px;
+    max-width: 50%;
+    height: auto;
+}
+
+
+a{
+    padding: 6px 12px;
+    text-decoration: none; 
+    border:1px solid black ;
+    border-radius: 5px;
+    color: black;
+    border-color: #ccc;
+}
+
+a:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+h1{
+    color: black;
+}
+/*- end css của ông Trọng -*/
+
+.CC{
+    margin-bottom: 25px;
+    padding: 6.5px;
+}
+
+.XX{
+text-align: center;
+}
+
+@media  (min-width: 768px) {
+    .BBG{  
+        margin: 0 0 30px;
+    }
+}
+
+    </style>
+<body>  
+    
+
+<div class="XX">
+      <h3> nhấn vào tôi </h3>
+    <button onclick="showPopup()">mở</button>
+</div>
+  
+    <div class="full-screen hidden flex-container-center">
+        <div class="BBG">
+            <div class="header"> 
+                <i class="fa fa-times"></i>
+            </div>
+            <div class="contact">
+                <h1 id="contact-h1">AFSA BRANDING</h1>
+                <hr id="nav">
+                <img src="http://www.couchcreative.com.au/img/portfolio/afsa-1.jpg" alt="">
+                <img src="http://www.couchcreative.com.au/img/portfolio/afsa-2.jpg" alt="">
+                <img src="http://www.couchcreative.com.au/img/portfolio/afsa-3.jpg" alt="">
+                <img src="http://www.couchcreative.com.au/img/portfolio/afsa-4.jpg" alt="">
+            </div>
+        </div>
+     <button onclick="closePopup()" class="CC"><i class="fa fa-times"></i>  Close</button>
+    </div>
+    <script>
+        const popup = document.querySelector('.full-screen');
+
+function showPopup(){
+  popup.classList.remove('hidden');
+}
+
+function closePopup(){
+  popup.classList.add('hidden');
+}
+    </script>
+
+</body>
+</html>
