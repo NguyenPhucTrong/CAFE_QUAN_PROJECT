@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-size: 10px;
+    margin-left: 94%;
+    margin-top: 10px;
+    color: #55555580;
+}
+.header:hover{
+    color: #55555542;
+}
+.contact{
+    margin: 0px 0px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+#contact-h1{
+    color: #555555;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    letter-spacing: 1px;
+    line-height: 46px;
+
+}
+
+#nav{
+   padding: 0;
+   border: none;
+   border-top: solid 5px;
+   text-align: center;
+   max-width: 250px;
+   margin: 25px auto 50px;
+   border-color: #75bee9;
+}
+
+img{
+    margin-bottom: 0px;
+    max-width: 61%;
+    height: auto;
+}
+
+ 
+a{
+    padding: 6px 12px;
+    text-decoration: none; 
+    border:1px solid black ;
+    border-radius: 5px;
+    color: black;
+    border-color: #ccc;
+    font-family: Bitter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: white;
+}
+a:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
