@@ -157,6 +157,25 @@ i{
     margin-top: -12px;
 }
 
+.success{
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    background: rgba(117, 190, 233, 1) url(http://www.couchcreative.com.au/img/bkg_texture_blue.jpg) repeat scroll center center ;
+    color: white;
+  }
+  
+  .success .container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    line-height: 1.5;
+  }
+  
+  .success .container .row{
+    margin: 0 -15px;
+  }
+
 
 @media screen and (min-width: 767px) {
     .noidung-chinh{
@@ -171,7 +190,15 @@ i{
     .noidung-chinh img{
         width: 278px;
     }
-
+.success .row .col-lg-8{
+    margin: 0 30px;
+    font-size: 20px;
+}
+.success{
+  
+    padding: 75px 0;
+    
+  } 
 }
 
 @media  screen and (min-width:768px) {
@@ -179,5 +206,6 @@ i{
       max-width: 400px !important; 
       margin: 100px auto;
     }
+
     
  }
