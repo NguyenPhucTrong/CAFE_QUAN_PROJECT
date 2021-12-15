@@ -162,7 +162,10 @@ i{
     section{
         padding: 75px 0;
     }
-    
+    .noidung-chinh img{
+        width: 278px;
+    }
+
 }
 
 @media  screen and (min-width:768px) {
