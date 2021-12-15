@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bitter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    color: #555555;
+}
+
+h2{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+section{
+    padding: 100px 0;
+}
+
+section h2{
+    margin: 0;
+    font-size: 3em;
+}
+
+section img{
+    width:400px;
+   
+}
+
+
+
+/*-- Css header --*/
+header{
+    text-align: center;
+    background: rgba(117, 190, 233, 1) url("http://www.couchcreative.com.au/img/bkg-header.jpg") no-repeat scroll center center;
+    background-size: cover;
+    color: white;
+    padding: 1px;
+}
+
+header .container{
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+header img{
+    display: block;
+    margin: 50px auto;
+    max-width: 280px !important;
+}
+
+.contact-link{
+    background: rgba(0, 0, 0, 0) url("http://www.couchcreative.com.au/img/contact-link.png") no-repeat scroll center center;
+    width: 150px;
+    height: 90px;
+    display: block;
+    background-size: cover;
+    text-indent: cover;
+    text-indent: -999px;
+    overflow: hidden;
+    margin: 20px auto;
+    opacity: 0.5; 
+}
+
+.contact-link:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+li a.contact-TT{
+    list-style-type: none;
+   
+}
+
+ 
+/*-- End css header --*/
+
+/*-- Css nội dung --*/
+.PP{
+    text-align: center;
+    font-size: 42px;
+}
+
+.gach{
+    padding:0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 50px;
+    border-color: #75bee9;
+}
+.gach::after{
+    font-family: sans-serif;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+    background-color: white;
+    color: #75bee9;
+}
+
+.noidung-chinh{
+   margin: 0 0 30px ;
+   right: 0;
+   display: inline-block;
+   padding-left: 110px;
+   
+}
+   
+.noidung-chinh a{
+    margin-right: -85px;
+}
+
+.noidung-link{
+    display: flex;
+    position: relative;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.anhanh{
+    width: 360px;
+}
+
+.caption{
+    background: rgba(117, 190, 233, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+.caption:hover{
+    opacity: 1;
+}
+
+.caption-content{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: white;
+}
+
+i{
+    margin-top: -12px;
+}
+
+/*-- end css nội dung --*/
+
+/*-- Css About  --*/
+.about {
+    background: rgba(117, 190, 233, 1) url("http://www.couchcreative.com.au/img/bkg_texture_blue.jpg") repeat scroll center center;
+    color: white;
+    
+  }
+
+.gach2::after{
+    font-family: sans-serif;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+    background-color: #75bee9;
+    color: white;
+}  
+
+.gach2{
+    border-color: white;
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 50px;
+}
+.pq1{
+    margin-bottom: 10px;
+}
+
+.text{
+    text-align:center;
+    font-size: 22px;
+    margin: 0px auto;
+    display: block;
+    font-family:serif ;
+    
+}
+
+/*-- css nội dung --*/
+
+/*-- Css Contact  --*/
+hr{
+    margin-left: 41%;
+}
+.contact{
+    background-color: #333333;
+    color: white;
+    height: 400px;
+}
+.contact1{
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    text-align: center;
+    font-size: 22px;
+    line-height: 33px;
+    
+}
+.contact2{
+    font-family: Bitter, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    text-align: center;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 50px;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+    color: white;
+    text-align: center;
+}
+.text-footer{
+    background-color: #333333;
+    height: 120px;
+    width: 100%;
+}
+.email{
+    color: #75bee9;
+}
+
+
+
+
+@media screen and (min-width: 767px) {
+    .noidung-chinh{
+        margin: 0 0 30px;
+    }
+  }
+
+
+/*-- For mobie --*/
+@media screen and (max-width: 767px) {
+    section{
+        padding: 75px 0;
+    }
+    
+    .noidung-chinh img{
+        width: 300px;
+      
+        
+    }
+    .caption{
+        width: 300px;
+      
+    }
+
+    a.noidung-link{
+      margin: 0px 0px 0px;
+      padding: 0px 35px;
+    }
+
+    .noidung-chinh{
+        width: 330px;
+       display: inline;
+    }
+}
+/*-- ipad pro --*/
+@media  screen and (min-width:768px) {
+    header img{
+      max-width: 400px !important; 
+      margin: 100px auto;
+    }
+ }
