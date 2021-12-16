@@ -31,7 +31,6 @@ section img{
 }
 
 
-
 /*-- Css header --*/
 header{
     text-align: center;
@@ -75,8 +74,6 @@ li a.contact-TT{
     list-style-type: none;
    
 }
-
- 
 /*-- End css header --*/
 
 /*-- Css nội dung --*/
@@ -110,9 +107,8 @@ li a.contact-TT{
    right: 0;
    display: inline-block;
    padding-left: 110px;
-   
 }
-   
+ 
 .noidung-chinh a{
     margin-right: -85px;
 }
@@ -164,7 +160,6 @@ i{
 .about {
     background: rgba(117, 190, 233, 1) url("http://www.couchcreative.com.au/img/bkg_texture_blue.jpg") repeat scroll center center;
     color: white;
-    
   }
 
 .gach2::after{
@@ -187,6 +182,7 @@ i{
     max-width: 250px;
     margin: 25px auto 50px;
 }
+
 .pq1{
     margin-bottom: 10px;
 }
@@ -196,50 +192,47 @@ i{
     font-size: 22px;
     margin: 0px auto;
     display: block;
-    font-family:serif ;
-    
+    font-family: sans-serif ;
 }
 
-/*-- css nội dung --*/
-
-
-@media screen and (min-width: 767px) {
-    .noidung-chinh{
-        margin: 0 0 30px;
-    }
-  }
-
-
-/*-- For mobie --*/
-@media screen and (max-width: 767px) {
-    section{
-        padding: 75px 0;
-    }
-    
-    .noidung-chinh img{
-        width: 300px;
-      
-        
-    }
-    .caption{
-        width: 300px;
-      
-    }
-
-    a.noidung-link{
-      margin: 0px 0px 0px;
-      padding: 0px 35px;
-    }
-
-    .noidung-chinh{
-        width: 330px;
-       display: inline;
-    }
+/*-- css contact --*/
+footer{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
 }
-/*-- ipad pro --*/
+
+.footer-email{
+    padding: 100px 0 30px 0;
+    background-color: #333333;
+}
+
+.footer-col{
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.below{
+    padding: 50px 0;
+    background-color: #333333;
+}
+
+.gmail{
+    color: skyblue;
+    text-decoration: none;
+}
+
+.gmail:hover{
+   border-bottom: 2px solid skyblue;
+   padding: 0;
+}
+/*-- End css contact --*/
+
 @media  screen and (min-width:768px) {
     header img{
       max-width: 400px !important; 
       margin: 100px auto;
     }
- }
+}   
