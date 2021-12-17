@@ -52,27 +52,22 @@ header img{
     max-width: 280px !important;
 }
 
-.contact-link{
+.contact-link {
     background: rgba(0, 0, 0, 0) url("http://www.couchcreative.com.au/img/contact-link.png") no-repeat scroll center center;
     width: 150px;
     height: 90px;
     display: block;
     background-size: cover;
-    text-indent: cover;
     text-indent: -999px;
-    overflow: hidden;
+  
     margin: 20px auto;
-    opacity: 0.5; 
+    opacity: 0.5;
 }
-
-.contact-link:hover{
+.contact-link:hover {
     opacity: 1;
-    cursor: pointer;
 }
-
-li a.contact-TT{
+li.contact-link-li {
     list-style-type: none;
-   
 }
 /*-- End css header --*/
 
@@ -208,6 +203,10 @@ footer{
     background-color: #333333;
 }
 
+#NN{
+    font-size: 30px;
+}
+
 .footer-col{
     margin-bottom: 50px;
     font-size: 20px;
@@ -230,9 +229,127 @@ footer{
 }
 /*-- End css contact --*/
 
+/*- thuộc tính chung -*/
 @media  screen and (min-width:768px) {
     header img{
       max-width: 400px !important; 
       margin: 100px auto;
     }
 }   
+
+@media screen and (max-width: 720px) {
+    section{
+        padding: 75px 0;
+    }
+}
+
+/*-- For mobile  < 740px --*/
+@media only screen and (max-width:740px){
+
+    .about{
+        padding: 50px 0;
+        font-size: 42px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    br{
+        display: none;
+    }
+
+    .noidung-chinh img{
+        max-width: 100%;
+      
+    }
+
+    a.noidung-link{
+        position: relative;
+        margin: 0px auto;
+        padding: 0px 8px; 
+    }
+
+    .caption{
+        width: 95.9%;
+    }
+
+    .noidung-chinh{
+        width: 90%;
+       display: inline;
+     
+    }
+    #NN{
+        font-size: 30px;
+    }
+
+    .footer-col{
+        font-size: 16px;
+    }
+
+    .copy{
+        font-size: 14px;
+    }
+}
+
+/*-- For tablet >=740px  --*/
+@media only screen and (min-width: 740px) and (max-width:1240px){
+
+   .noidung-chinh{
+      padding: 0;
+      margin: 0;
+    }
+
+    a.noidung-link{
+        position: relative;
+        padding: 0px 0px 20px ;
+        display: flex;
+        margin-left: 45px;
+      }
+
+    br{
+        display: block;
+     } 
+
+    .noidung-chinh img{
+        width: 80% ;
+
+    } 
+
+    .caption{
+     width: 80%;
+    }     
+
+    .about{
+        font-size: 42px;
+    }
+
+    .text{
+        font-size: 20px;
+        width: 720px;
+    }
+
+    br{
+        display: block;
+    }
+
+    html{
+        width: 1024px;
+    }
+
+    #NN{
+        font-size: 30px;
+    }
+
+    br{
+        display: block;
+    }
+
+    .footer-col{
+        font-size: 20px;
+    }
+
+    .copy{
+        font-size: 14px;
+    }
+}
